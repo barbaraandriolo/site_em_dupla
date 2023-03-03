@@ -35,7 +35,7 @@
   font-family: EBENYA;
   font-size: 150px;
   color: black;
-  text-shadow: 4px 5px #a1a3a0;
+  text-shadow: 8px 0px #616360c4;
   text-align: center;
   position: relative;
   top: 2rem;
@@ -78,5 +78,12 @@
     color: white;
     padding: 40px;
     font-family: Jura, sans-serif;
-    font-size: 50px;
+    font-size: 44px;
   }
+ 
+  .meso {
+    font-family: EBENYA;
+    font-size: 70px;
+    color: #829F73;
+  }
+
