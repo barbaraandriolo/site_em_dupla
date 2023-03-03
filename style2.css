@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Jura:wght@600&family=Karla&display=swap);
+
+@font-face {
+  font-family: 'EBENYA';
+  src: url('../fonts/EBENYA.ttf');
+}
+
+.top-bar {
+  background-color: white;
+  height: 170px;
+  width: 1440px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: white;
+  height: 170px;
+  width: 1440px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.title {
+  font-family: EBENYA;
+  font-size: 150px;
+  color: black;
+  text-shadow: 4px 5px #a1a3a0;
+  text-align: center;
+  position: relative;
+  top: 2rem;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+}
+
+.menu {
+  font-family: Karla, sans-serif;
+  text-align: center;
+  position: relative;
+  top: 52px;
+  font-size: 17px;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-bar2 {
+    background-color: #191E1E;
+    height: 150px;
+    width: 2000px;
+    transform: translateX(-13%);
+    margin-top: 40px;
+    color: white;
+    padding: 40px;
+    font-family: Jura, sans-serif;
+    font-size: 50px;
+  }
