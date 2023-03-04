@@ -33,12 +33,12 @@
 
 .title {
   font-family: EBENYA;
-  font-size: 150px;
+  font-size: 100px;
   color: black;
   text-shadow: 8px 0px #616360c4;
   text-align: center;
   position: relative;
-  top: 2rem;
+  top: 1rem;
   left: 50%;
   right: 50%;
   transform: translateX(-50%);
@@ -48,7 +48,7 @@
   font-family: Karla, sans-serif;
   text-align: center;
   position: relative;
-  top: 52px;
+  top: 40px;
   font-size: 17px;
 }
 
@@ -72,13 +72,13 @@
 .top-bar2 {
     background-color: #191E1E;
     height: 150px;
-    width: 2000px;
+    width: 1950px;
     transform: translateX(-13%);
-    margin-top: 40px;
+    margin-top: 45px;
     color: white;
-    padding: 40px;
+    padding: 30px;
     font-family: Jura, sans-serif;
-    font-size: 44px;
+    font-size: 35px;
   }
  
   .meso {
@@ -87,3 +87,15 @@
     color: #829F73;
   }
 
+  img :nth-of-type(1){
+    margin-left: 814px;
+    width: 408px;
+    height: 603px;
+    padding: 31px;
+  }
+  img :nth-of-type(2){
+    margin-left: 0%;
+    width: 814px;
+    height: 603px;
+    padding: 31px;
+  }
