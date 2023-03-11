@@ -72,7 +72,7 @@
 .top-bar2 {
     background-color: #191E1E;
     height: 150px;
-    width: 1950px;
+    width: 1931px;
     transform: translateX(-13%);
     margin-top: 35px;
     color: white;
@@ -87,13 +87,11 @@
     color: #829F73;
   }
   section {
-    display: flex;
-    flex-grow: 2;
+    display: block;
     justify-content: center;
     align-items: center;
     margin-top: 149px;
-    
-    
+  
   }
 
 
