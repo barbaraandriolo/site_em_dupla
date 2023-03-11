@@ -10,7 +10,8 @@
 .top-bar {
   background-color: white;
   height: 205px;
-  width: 1440px;
+  width: 1950px;
+  transform: translateX(10%);
 }
 
 * {
@@ -25,11 +26,6 @@
   width: 1440px;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
 .title {
   font-family: EBENYA;
@@ -72,8 +68,8 @@
 .top-bar2 {
     background-color: #191E1E;
     height: 150px;
-    width: 1950px;
-    transform: translateX(-13%);
+    width: 1940px;
+    transform: translateX(-10%);
     margin-top: 35px;
     color: white;
     padding: 30px;
@@ -86,9 +82,15 @@
     font-size: 70px;
     color: #829F73;
   }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
   section {
     display: flex;
-    flex-grow: 2;
     justify-content: center;
     align-items: center;
     margin-top: 149px;
@@ -99,7 +101,9 @@
 
 .tamanho{
 
-  height: 50vw;
+  height: 47vw;
 
-
+}
+body{
+  max-width: 100%;
 }
