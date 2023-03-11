@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'EBENYA';
-  src: url('../fonts/EBENYA.ttf');
+  src: url('./fonts/EBENYA.ttf');
 }
 
 .top-bar {
@@ -74,7 +74,7 @@
     height: 150px;
     width: 1950px;
     transform: translateX(-13%);
-    margin-top: 45px;
+    margin-top: 35px;
     color: white;
     padding: 30px;
     font-family: Jura, sans-serif;
@@ -100,3 +100,4 @@
     height: 603px;
     padding: 31px;
   }
+  
