@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&family=Karla&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+
 
 @font-face {
   font-family: 'EBENYA';
@@ -196,7 +199,73 @@ section {
 
 .image:hover img {
   transform: scale(1.2);
+  filter: blur(2px); /* adiciona blur na imagem */
+  position: relative;
 }
+
+.image:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* adiciona uma caixa de opções semi-transparente */
+  z-index: 1;
+}
+
+.image:hover .options {
+  display: block; /* mostra a caixa de opções quando o mouse passa sobre a imagem */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.options {
+  display: none; /* oculta a caixa de opções por padrão */
+}
+
+.options a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #191E1E;
+  margin: 10px;
+  transition: all 0.2s ease;
+   
+}
+
+.options a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.options a i {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.options a i:hover {
+  color: #000;
+  
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
 
 .footer {
   background-color: #191E1E;
@@ -209,3 +278,84 @@ section {
   font-size: 35px;
   text-align: center;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.branding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.icons {
+  display: flex;
+  margin-right: 100px;
+
+}
+
+.icons a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #191E1E;
+  margin: 10px;
+  transition: all 0.2s ease;
+}
+
+.frete {
+  margin: 50px auto;
+  width: 500px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+form {
+  display: inline-block;
+  margin-top: 20px;
+
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+  margin-right: 10px;
+
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.2s ease;
+
+}
+
